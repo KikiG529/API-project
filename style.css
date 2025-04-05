@@ -93,7 +93,24 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   }
+
   
+.sort-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .year-sort label {
+    margin-right: 10px;
+  }
+  
+  .year-sort select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
   .movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
